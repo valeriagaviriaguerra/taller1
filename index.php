@@ -32,35 +32,54 @@
     </header>
     <main>
     
-            <div class="container text-purple">
-                <div class="row justify-content-center">
-                    <div class="col-4">
-                        <form action=""class="mt-4" >
-                        <div class="form-group">
-                                <label for="producto1">Producto1</label>
-                                <input type="text" class="form-control" id="producto1">
-                           </div> 
-                           <div class="form-group">
-                                <label for="producto2">producto2</label>
-                                <input type="text" class="form-control" id="producto2">
-                           </div>
-                           <div class="form-group">
-                                <label for="producto3">Producto3</label>
-                                <input type="text" class="form-control" id="producto3">
-                           </div>
-                           <div class="form-group">
-                                <label for="producto4">Producto4</label>
-                                <input type="text" class="form-control" id="producto4">
-                           </div>
-                           <div class="form-group">
-                                <label for="producto5">Producto5</label>
-                                <input type="text" class="form-control" id="producto5">
-                           </div>
-                           <button type="submit" class="btn btn-primary">calcular</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
+          <div class="container text-purple">
+              <div class="row justify-content-center mt-5">
+                   <div class="col-4">
+                   <form>
+                   <h3 class="text-center mb-4">factura de compra</h3>
+                     <div class="row">
+                      <div class="col">
+                        <input type="text" class="form-control" placeholder="producto1">
+                        </div>
+                        <div class="col">
+                          <input type="number" class="form-control" placeholder="precio($)">
+                        </div>
+                      </div>
+                      <div class="row">
+                      <div class="col">
+                        <input type="text" class="form-control" placeholder="producto2">
+                        </div>
+                        <div class="col">
+                          <input type="number" class="form-control" placeholder="precio($)">
+                        </div>
+                      </div>
+                      <div class="row">
+                      <div class="col">
+                        <input type="text" class="form-control" placeholder="producto3">
+                        </div>
+                        <div class="col">
+                          <input type="number" class="form-control" placeholder="precio($)">
+                        </div>
+                        <div class="row">
+                      <div class="col">
+                        <input type="text" class="form-control" placeholder="producto4">
+                        </div>
+                        <div class="col">
+                          <input type="number" class="form-control" placeholder="precio($)">
+                        </div>
+                        <div class="row">
+                      <div class="col">
+                        <input type="text" class="form-control" placeholder="producto5">
+                        </div>
+                        <div class="col">
+                          <input type="number" class="form-control" placeholder="precio($)">
+                        </div>
+                    </form>
+                  <button type="submit" class="btn btn-primary btn-block">calcular</button>
+                </form>
+              </div>
+             </div>
+           </div>
 
     
     </main>
